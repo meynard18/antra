@@ -13,9 +13,6 @@ const select = document.createElement('select');
 const select2 = document.createElement('select');
 body.append(select, select2);
 
-const handleOption = (e) => {
-   alert('hi');
-};
 Object.keys(state).map((item) => {
    const option = document.createElement('option');
    select.append(option);
